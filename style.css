@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+
+
+html{
+    height: 100%;
+    background-image: linear-gradient(rgba(170, 157, 255, 1),rgb(90, 74, 163));
+}
+
+.bigpart{
+    height: 350px;
+    width: 290px;
+    background-image: linear-gradient(rgba(35, 28, 45, 0.899),rgba(35, 28, 45, 0.899));
+    margin: 20px auto;
+    margin-top: 125px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: 4px 5px 4px 0px #4e4e4e;
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif ;
+}
+
+.tipcalculator{
+    color: white;    
+    padding-top: 40px;
+}
+
+.bill{
+    color: white;  
+    text-align: left;  
+}
+
+input{
+    border-radius: 80px;
+    width: 6cm;
+    background-color: rgba(170, 157, 255, 0.222);    
+}
+
+input:hover{
+    box-shadow: 1px 1px 10px 1px #313131;
+    transition: 0.3s;
+}
+
+.tip{
+    color: white;
+    text-align: left;
+}
+
+.people{
+    
+    color: white;
+}
+
+.total{
+    color: white;
+    text-align: right;
+}
